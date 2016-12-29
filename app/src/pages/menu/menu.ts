@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
+import { MapPage } from '../map/map';
+import { ListPage } from '../list/list';
 /*
   Generated class for the Menu page.
 
@@ -13,10 +14,10 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class MenuPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  tab1Root: any = MapPage;
+  tab2Root: any = ListPage;
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad MenuPage');
+  constructor(){
+
   }
-
 }

@@ -10,13 +10,21 @@ import { LugaresPage } from '../pages/lugares/lugares';
 import { InteresesPage } from '../pages/intereses/intereses';
 import { CronogramaPage } from '../pages/cronograma/cronograma';
 
+import { MapPage } from '../pages/map/map';
+import { ListPage } from '../pages/list/list';
+import { Locations } from '../providers/locations';
+import { GoogleMaps } from '../providers/google-maps';
+import { Connectivity } from '../providers/connectivity';
+
 @NgModule({
   declarations: [
     MyApp,
     MenuPage,
     LugaresPage,
     InteresesPage,
-    CronogramaPage
+    CronogramaPage,
+    MapPage,
+    ListPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -27,8 +35,10 @@ import { CronogramaPage } from '../pages/cronograma/cronograma';
     MenuPage,
     LugaresPage,
     InteresesPage,
-    CronogramaPage
+    CronogramaPage,
+    MapPage,
+    ListPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, Locations, GoogleMaps, Connectivity]
 })
 export class AppModule {}

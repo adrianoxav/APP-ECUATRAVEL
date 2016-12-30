@@ -15,7 +15,6 @@ import { ListPage } from '../list/list';
 export class MenuPage {
 
   tab1Root: any = MapPage;
-  tab2Root: any = ListPage;
 
   constructor(){
 

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { ListPage } from '../list/list';
 
 /*
   Generated class for the Lugares page.
@@ -13,10 +14,10 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class LugaresPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad LugaresPage');
+    tab2Root: any = ListPage;
+
+    constructor(){
+
+    }
   }
-
-}

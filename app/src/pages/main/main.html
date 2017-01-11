@@ -7,8 +7,46 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="pagPrincipal">
+     <div class="custom">
 
-  <h3>menu principal view page</h3>
 
+        <table width="500" border="0" cellpadding="5">
+
+ <tr>
+
+ <td align="center" valign="center">
+
+ <img src="../img/places.png" alt="description here"  width="150" height="150" (click)="openLugaresPage()" />
+ <br />
+ LUGARES CERCANOS.
+ </td>
+
+ <td align="center" valign="center">
+ <img src="../img/cronograma.png" alt="description here"  width="150" height="150" (click)="openCronogramaPage()"/>
+ <br />
+ CRONOGRAMA.
+ </td>
+ </tr>
+ <tr>
+
+ <td align="center" valign="center">
+
+ <img src="../img/maps.png" alt="description here" width="150" height="150" (click)="openMapPage()"/>
+ <br />
+
+ MAPAS.
+ </td>
+
+ <td align="center" valign="center">
+
+<img src="../img/ajuste.png" alt="description here" width="150" height="150" (click)="openInteresesPage()" />
+ <br />
+MODIFICAR INTERESES.
+ </td>
+
+ </tr>
+
+ </table>
+ </div>
 </ion-content>

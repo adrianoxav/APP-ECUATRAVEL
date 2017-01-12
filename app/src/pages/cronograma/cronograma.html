@@ -22,22 +22,22 @@
       Crear Viaje
     </ion-card-header>
     <ion-card-content>
-      <p>
-        <label>Viaje : </label>
-        {{title}}
-      </p>
-      <p>
-        <label>Desde : </label>
-        {{startDate | date:'dd/MM/yy HH:mm'}}
-      </p>
-      <p>
-        <label>Hasta : </label>
-        {{endDate | date:'dd/MM/yy HH:mm'}}
-      </p>
-      <p>
-        <label>Notas : </label>
-        {{note}}
-      </p>
+      <ion-item>
+        <ion-label>Viaje:</ion-label>
+        <ion-input></ion-input>{{title}}
+      </ion-item>
+    <ion-item>
+  <ion-label>Desde: Dias / Mes / Anio</ion-label>
+  <ion-datetime fab-center displayFormat="DD/MM/YYYY HH:mm" [(ngModel)]="myDate"></ion-datetime>
+</ion-item>
+<ion-item>
+  <ion-label>Hasta: Dias / Mes / Anio</ion-label>
+  <ion-datetime fab-center displayFormat="DD/MM/YYYY HH:mm" [(ngModel)]="myDate1"></ion-datetime>
+</ion-item>
+<ion-item>
+  <ion-label>Notas:</ion-label>
+  <ion-input></ion-input>{{note}}
+</ion-item>
     </ion-card-content>
   </ion-card>
 

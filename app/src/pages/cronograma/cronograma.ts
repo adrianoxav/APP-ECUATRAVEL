@@ -30,15 +30,15 @@ constructor( nav: NavController, public navParams: NavParams,private toastCtrl: 
 
   this.nav = nav;
 
-  this.title = 'Event 1';
-  this.note = 'Creating an event !';
+  this.title = 'Ingresa tu viaje';
+  this.note = 'Que deseas visitar?';
   this.startDate = new Date();
   this.startDate.setMinutes(this.startDate.getMinutes() + 10);
   this.endDate = new Date();
   this.endDate.setHours(this.startDate.getHours() + 1);
 
-  this.titleUpdated = 'Event updated';
-  this.noteUpdated = 'We update the event !';
+  this.titleUpdated = 'Viaje Actualizado';
+  this.noteUpdated = 'Has actualizado tu viaje !';
 }
 
 

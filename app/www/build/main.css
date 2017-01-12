@@ -22109,6 +22109,31 @@ sub {
   }
 }
 
+page-cronograma scroll-content {
+  padding: 0px;
+}
+
+page-cronograma ion-card-header {
+  background: blue;
+  color: white;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+page-cronograma label {
+  width: 80px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+page-cronograma button {
+  margin-bottom: 20px;
+}
+
+page-cronograma ion-card {
+  margin-bottom: 40px;
+}
+
 page-intereses {
   /*Set the background to transparent for ion-item*/
   /*Changes the border for the last item*/

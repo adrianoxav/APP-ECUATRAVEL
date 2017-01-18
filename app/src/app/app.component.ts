@@ -10,7 +10,7 @@ import { LugaresPage } from '../pages/lugares/lugares';
 import { InteresesPage } from '../pages/intereses/intereses';
 import { CronogramaPage } from '../pages/cronograma/cronograma';
 import { MainPage } from '../pages/main/main';
-
+import { LoginPage } from '../pages/login/login';
 
 
 
@@ -21,7 +21,7 @@ export class MyApp {
  @ViewChild(Nav) nav: Nav;
 
   // make UsersPage the root (or first) page
-  rootPage: any = MainPage;
+  rootPage: any = LoginPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform,  public menu: MenuController) {

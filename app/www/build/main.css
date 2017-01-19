@@ -22109,6 +22109,31 @@ sub {
   }
 }
 
+page-cronograma scroll-content {
+  padding: 0px;
+}
+
+page-cronograma ion-card-header {
+  background: blue;
+  color: white;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+page-cronograma label {
+  width: 80px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+page-cronograma button {
+  margin-bottom: 20px;
+}
+
+page-cronograma ion-card {
+  margin-bottom: 40px;
+}
+
 page-intereses {
   /*Set the background to transparent for ion-item*/
   /*Changes the border for the last item*/
@@ -22191,6 +22216,149 @@ page-intereses .styled-select.slate select {
   width: 100%;
 }
 
+page-login #logo {
+  padding: 70px 0 0 0;
+  overflow: hidden;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  height: 0px !important;
+  height: 70px;
+}
+
+page-login .center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+page-lugares {
+  /*Set the background to transparent for ion-item*/
+  /*Changes the border for the last item*/
+  /*Just makes the type white*/
+  /*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+}
+
+page-lugares .custom {
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+page-lugares .pagPrincipal {
+  background-color: #11a0fb !important;
+  /* This sets the background color*/
+}
+
+page-lugares table {
+  border-collapse: separate;
+  border-spacing: 5px 10px;
+  width: 100%;
+  color: white;
+}
+
+page-lugares .custom td, page-lugares th, page-lugares tr {
+  font-size: 22px;
+  color: white;
+}
+
+page-lugares #circulo {
+  width: 180px;
+  height: 180px;
+  background: white;
+  border-radius: 90px;
+}
+
+page-lugares .imgAlign {
+  position: absolute;
+  visibility: visible;
+  z-index: 1;
+  padding-top: -20px;
+}
+
+page-lugares .custom .item {
+  background-color: transparent;
+  border: none;
+  /*Removes all borders*/
+  border-top: 10px solid;
+  /*Top Border for each menu item*/
+  border-bottom: 2px solid;
+  /*Bottom border for each menu item*/
+  border-color: #11a0fb;
+  /*Sets colors for top and bottom border*/
+  color: black;
+  /*Text color for each item*/
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+
+page-lugares .btn_interes {
+  margin-top: 15%;
+  padding: 11px 25px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.25);
+  background: #56e17d;
+  border: 1px solid #46b3d3;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+}
+
+page-lugares .custom .item:last-child {
+  border-bottom: 1px solid #666;
+}
+
+page-lugares .custom .item-complex .item-content, page-lugares .dark .item-radio .item-content {
+  background-color: transparent;
+}
+
+page-lugares .custom h2,
+page-lugares .custom h3,
+page-lugares .custom p,
+page-lugares .custom a {
+  color: white;
+  /*Text color for each item, overrides the color property above*/
+}
+
+page-lugares .styled-select.slate {
+  background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+  height: 34px;
+  width: 240px;
+}
+
+page-lugares .styled-select.slate select {
+  border: 2px solid #2c8061;
+  font-size: 16px;
+  height: 34px;
+  width: 100%;
+}
+
+page-lugares .ec-stars-wrapper a {
+  text-decoration: none;
+  display: inline-block;
+  /* Volver a dar tamaño al texto */
+  font-size: 32px;
+  font-size: 2rem;
+  color: #888;
+}
+
+page-lugares .ec-stars-wrapper:hover a {
+  color: #2782e4;
+}
+
+page-lugares .ec-stars-wrapper > a:hover ~ a {
+  color: #888;
+}
+
 page-main {
   /*Set the background to transparent for ion-item*/
   /*Changes the border for the last item*/
@@ -22205,7 +22373,7 @@ page-main .custom {
 }
 
 page-main .pagPrincipal {
-  background-color: #11a0fb !important;
+  background-color: white !important;
   /* This sets the background color*/
 }
 

@@ -29,7 +29,9 @@ export class Locations {
 
 
 
-            this.http.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+position.coords.latitude+','+ position.coords.longitude+'&radius=5000&types=food&key=AIzaSyDTofmCEZHNotd6_Ncgqhl7ri0MN7zIZx8').map(res => res.json()).subscribe(data => {
+            this.http.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+position.coords.latitude+','
+            + position.coords.longitude+'&radius=5000&types=food&key=AIzaSyDTofmCEZHNotd6_Ncgqhl7ri0MN7zIZx8').map(res => res.json())
+            .subscribe(data => {
 
 
                 this.data = this.applyHaversine(data.locations);

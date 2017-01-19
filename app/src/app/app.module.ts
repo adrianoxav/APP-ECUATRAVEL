@@ -10,7 +10,7 @@ import { LugaresPage } from '../pages/lugares/lugares';
 import { InteresesPage } from '../pages/intereses/intereses';
 import { CronogramaPage } from '../pages/cronograma/cronograma';
 import { MainPage } from '../pages/main/main';
-
+import { LoginPage } from '../pages/login/login';
 import { MapPage } from '../pages/map/map';
 import { ListPage } from '../pages/list/list';
 import { Locations } from '../providers/locations';
@@ -26,7 +26,8 @@ import { Connectivity } from '../providers/connectivity';
     CronogramaPage,
     MapPage,
     ListPage,
-    MainPage
+    MainPage,
+    LoginPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -40,7 +41,8 @@ import { Connectivity } from '../providers/connectivity';
     CronogramaPage,
     MapPage,
     ListPage,
-    MainPage
+    MainPage,
+    LoginPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, Locations, GoogleMaps, Connectivity]
 })

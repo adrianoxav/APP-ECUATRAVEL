@@ -22109,12 +22109,18 @@ sub {
   }
 }
 
+page-cronograma {
+  /*Set the background to transparent for ion-item*/
+  /*Changes the border for the last item*/
+  /*Just makes the type white*/
+}
+
 page-cronograma scroll-content {
   padding: 0px;
 }
 
 page-cronograma ion-card-header {
-  background: blue;
+  background: gray;
   color: white;
   margin-bottom: 5px;
   font-weight: bold;
@@ -22134,6 +22140,110 @@ page-cronograma ion-card {
   margin-bottom: 40px;
 }
 
+page-cronograma .custom {
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+page-cronograma .pagPrincipal {
+  background-color: white !important;
+  /* This sets the background color*/
+}
+
+page-cronograma table {
+  border-collapse: separate;
+  border-spacing: 5px 10px;
+  width: 100%;
+  color: white;
+}
+
+page-cronograma .custom td, page-cronograma th, page-cronograma tr {
+  font-size: 22px;
+  color: white;
+}
+
+page-cronograma #circulo {
+  width: 180px;
+  height: 180px;
+  background: white;
+  border-radius: 90px;
+}
+
+page-cronograma .imgAlign {
+  position: absolute;
+  visibility: visible;
+  z-index: 1;
+  padding-top: -20px;
+}
+
+page-cronograma .custom .item {
+  background-color: transparent;
+  border: none;
+  /*Removes all borders*/
+  border-top: 5px solid;
+  /*Top Border for each menu item*/
+  border-bottom: 2px solid;
+  /*Bottom border for each menu item*/
+  height: 30 px;
+  width: 30 px;
+  border-color: #11a0fb;
+  /*Sets colors for top and bottom border*/
+  color: black;
+  /*Text color for each item*/
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+
+page-cronograma .btn_interes {
+  margin-top: 15%;
+  padding: 11px 25px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.25);
+  background: gray;
+  border: 1px solid #46b3d3;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+}
+
+page-cronograma .custom .item:last-child {
+  border-bottom: 1px solid #666;
+}
+
+page-cronograma .custom .item-complex .item-content, page-cronograma .dark .item-radio .item-content {
+  background-color: transparent;
+}
+
+page-cronograma .custom h2,
+page-cronograma .custom h3,
+page-cronograma .custom p,
+page-cronograma .custom a {
+  color: white;
+  /*Text color for each item, overrides the color property above*/
+}
+
+page-cronograma .styled-select.slate {
+  background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+  height: 34px;
+  width: 240px;
+}
+
+page-cronograma .styled-select.slate select {
+  border: 2px solid #2c8061;
+  font-size: 16px;
+  height: 34px;
+  width: 100%;
+}
+
 page-intereses {
   /*Set the background to transparent for ion-item*/
   /*Changes the border for the last item*/
@@ -22148,8 +22258,34 @@ page-intereses .custom {
 }
 
 page-intereses .pagIntereses {
-  background-color: #11a0fb !important;
+  background-color: white !important;
   /* This sets the background color*/
+}
+
+page-intereses table {
+  border-collapse: separate;
+  border-spacing: 5px 10px;
+  width: 100%;
+  color: white;
+}
+
+page-intereses .custom td, page-intereses th, page-intereses tr {
+  font-size: 22px;
+  color: white;
+}
+
+page-intereses #circulo {
+  width: 180px;
+  height: 180px;
+  background: white;
+  border-radius: 90px;
+}
+
+page-intereses .imgAlign {
+  position: absolute;
+  visibility: visible;
+  z-index: 1;
+  padding-top: -20px;
 }
 
 page-intereses .custom .item {
@@ -22248,7 +22384,7 @@ page-lugares .custom {
 }
 
 page-lugares .pagPrincipal {
-  background-color: #11a0fb !important;
+  background-color: white !important;
   /* This sets the background color*/
 }
 
@@ -22261,7 +22397,7 @@ page-lugares table {
 
 page-lugares .custom td, page-lugares th, page-lugares tr {
   font-size: 22px;
-  color: white;
+  color: black;
 }
 
 page-lugares #circulo {
@@ -22429,7 +22565,7 @@ page-main .btn_interes {
   font-size: 18px;
   color: #fff;
   text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.25);
-  background: #56e17d;
+  background: gray;
   border: 1px solid #46b3d3;
   border-radius: 5px;
   cursor: pointer;
@@ -22467,6 +22603,12 @@ page-main .styled-select.slate select {
   width: 100%;
 }
 
+page-map {
+  /*Set the background to transparent for ion-item*/
+  /*Changes the border for the last item*/
+  /*Just makes the type white*/
+}
+
 page-map #please-connect {
   position: absolute;
   background-color: #000;
@@ -22492,4 +22634,106 @@ page-map .scroll {
 page-map #map {
   width: 100%;
   height: 100%;
+}
+
+page-map .custom {
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+page-map .pagMap {
+  background-color: white !important;
+  /* This sets the background color*/
+}
+
+page-map table {
+  border-collapse: separate;
+  border-spacing: 5px 10px;
+  width: 100%;
+  color: white;
+}
+
+page-map .custom td, page-map th, page-map tr {
+  font-size: 22px;
+  color: white;
+}
+
+page-map #circulo {
+  width: 180px;
+  height: 180px;
+  background: white;
+  border-radius: 90px;
+}
+
+page-map .imgAlign {
+  position: absolute;
+  visibility: visible;
+  z-index: 1;
+  padding-top: -20px;
+}
+
+page-map .custom .item {
+  background-color: transparent;
+  border: none;
+  /*Removes all borders*/
+  border-top: 10px solid;
+  /*Top Border for each menu item*/
+  border-bottom: 2px solid;
+  /*Bottom border for each menu item*/
+  border-color: #11a0fb;
+  /*Sets colors for top and bottom border*/
+  color: black;
+  /*Text color for each item*/
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+
+page-map .btn_interes {
+  margin-top: 15%;
+  padding: 11px 25px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.25);
+  background: gray;
+  border: 1px solid #46b3d3;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+}
+
+page-map .custom .item:last-child {
+  border-bottom: 1px solid #666;
+}
+
+page-map .custom .item-complex .item-content, page-map .dark .item-radio .item-content {
+  background-color: transparent;
+}
+
+page-map .custom h2,
+page-map .custom h3,
+page-map .custom p,
+page-map .custom a {
+  color: white;
+  /*Text color for each item, overrides the color property above*/
+}
+
+page-map .styled-select.slate {
+  background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+  height: 34px;
+  width: 240px;
+}
+
+page-map .styled-select.slate select {
+  border: 2px solid #2c8061;
+  font-size: 16px;
+  height: 34px;
+  width: 100%;
 }

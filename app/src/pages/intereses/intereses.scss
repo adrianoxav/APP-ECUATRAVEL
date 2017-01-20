@@ -8,9 +8,40 @@ page-intereses {
     margin: auto;
    }
    .pagIntereses {
-     background-color:  #11a0fb !important; /* This sets the background color*/
+     background-color:  white !important; /* This sets the background color*/
 
     }
+    table {
+     border-collapse: separate;
+     border-spacing:  5px 10px;
+     width: 100%;
+
+     color: white;
+   }
+   .custom td , th, tr{
+     font-size:22px;
+     color:white;
+   }
+
+   #circulo {
+
+     width: 180px;
+     height: 180px;
+     background:white;
+     -moz-border-radius: 90px;
+     -webkit-border-radius: 90px;
+     border-radius: 90px;
+
+   }
+  .imgAlign{
+    position:absolute;
+    visibility:visible;
+    z-index:1;
+    padding-top: -20px
+
+  }
+
+
 
   /*Set the background to transparent for ion-item*/
   .custom .item {
@@ -77,4 +108,3 @@ page-intereses {
      width: 100%;
   }
 }
-

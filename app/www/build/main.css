@@ -22491,7 +22491,7 @@ page-lugares .custom {
   margin: auto;
 }
 
-page-lugares .pagPrincipal {
+page-lugares .pagIntereses {
   background-color: white !important;
   /* This sets the background color*/
 }
@@ -22590,7 +22590,7 @@ page-lugares .ec-stars-wrapper a {
   text-decoration: none;
   display: inline-block;
   /* Volver a dar tamaño al texto */
-  font-size: 32px;
+  font-size: 20px;
   font-size: 2rem;
   color: #888;
 }

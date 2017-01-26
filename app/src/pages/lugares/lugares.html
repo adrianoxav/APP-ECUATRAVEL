@@ -7,17 +7,17 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="pagPrincipal">
+<ion-content padding class="pagIntereses">
      <div class="custom">
 
   <table width="500" border="0" cellpadding="5">
     <ion-card>
       <ion-card-header>
-        Explore Nearby
+        Lugares Cerca de Ti...
       </ion-card-header>
 
       <ion-list>
-        <button ion-item>
+        <button (click)="showPrompt()" ion-item>
           <ion-icon name="cafe" item-left></ion-icon>
           <tr>
 
@@ -36,19 +36,19 @@
            </div>
            <div class="ec-stars-wrapper">
              <a href="#" data-value="1" title="Escudo">
-            <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+            <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
           </a>
           <a href="#" data-value="2" title="Escudo 2">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
          <a href="#" data-value="3" title="Escudo 3">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
          <a href="#" data-value="4" title="Escudo 4">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
          <a href="#" data-value="5" title="Votar con 5 estrellas">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
           </div>
 
@@ -56,7 +56,7 @@
           </tr>
         </button>
 
-        <button ion-item>
+        <button (click)="showPrompt()" ion-item>
           <ion-icon name="videocam" item-left></ion-icon>
           <tr>
 
@@ -76,19 +76,19 @@
            </div>
            <div class="ec-stars-wrapper">
              <a href="#" data-value="1" title="Escudo">
-            <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+            <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
           </a>
           <a href="#" data-value="2" title="Escudo 2">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
          <a href="#" data-value="3" title="Escudo 3">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
          <a href="#" data-value="4" title="Escudo 4">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
          <a href="#" data-value="5" title="Votar con 5 estrellas">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
           </div>
 
@@ -96,12 +96,12 @@
           </tr>
         </button>
 
-        <button ion-item>
+        <button (click)="showPrompt()" ion-item>
           <ion-icon name="closed-captioning" item-left></ion-icon>
           <tr>
 
           <td align="center" valign="center">
-           Shopping-Mall del Sur
+           Mall del Sur
             <br>
             2.20 Km
           </td>
@@ -115,16 +115,16 @@
            </div>
            <div class="ec-stars-wrapper">
              <a href="#" data-value="1" title="Escudo">
-            <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+            <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
           </a>
           <a href="#" data-value="2" title="Escudo 2">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
          <a href="#" data-value="3" title="Escudo 3">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
          <a href="#" data-value="4" title="Escudo 4">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
           </div>
 
@@ -132,7 +132,7 @@
           </tr>
         </button>
 
-        <button ion-item>
+        <button (click)="showPrompt()" ion-item>
           <ion-icon name="paw" item-left></ion-icon>
           <tr>
 
@@ -152,10 +152,10 @@
            </div>
            <div class="ec-stars-wrapper">
              <a href="#" data-value="1" title="Escudo">
-            <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+            <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
           </a>
           <a href="#" data-value="2" title="Escudo 2">
-          <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+          <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
           </a>
           </div>
 
@@ -163,7 +163,7 @@
           </tr>
         </button>
 
-        <button ion-item>
+        <button (click)="showPrompt()" ion-item>
           <ion-icon name="water" item-left></ion-icon>
 
 
@@ -184,16 +184,16 @@
             </div>
             <div class="ec-stars-wrapper">
               <a href="#" data-value="1" title="Escudo">
-             <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+             <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
            </a>
            <a href="#" data-value="2" title="Escudo 2">
-          <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+          <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
           </a>
           <a href="#" data-value="3" title="Escudo 3">
-          <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+          <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
           </a>
           <a href="#" data-value="4" title="Escudo 4">
-          <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+          <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
           </a>
 
            </div>
@@ -203,7 +203,7 @@
 
         </button>
 
-        <button ion-item>
+        <button (click)="showPrompt()" ion-item>
           <ion-icon name="planet" item-left></ion-icon>
           <tr>
 
@@ -212,7 +212,7 @@
             <br>
             8.20 Km
           </td>
-          <td align="right" valign="right">
+          <td align="center" valign="center">
             <div class="ec-stars-wrapper">
             <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
             <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
@@ -222,13 +222,13 @@
            </div>
            <div class="ec-stars-wrapper">
              <a href="#" data-value="1" title="Escudo">
-            <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+            <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
           </a>
           <a href="#" data-value="2" title="Escudo 2">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
          <a href="#" data-value="3" title="Escudo 3">
-         <img src="img/escudo.png" alt="escudo" style="width:22px;height:22px;border:0;">
+         <img src="img/escudo.png" alt="escudo" style="width:20px;height:20px;border:0;">
          </a>
           </div>
 
@@ -245,3 +245,84 @@
  </table>
  </div>
 </ion-content>
+
+<!--Layout para ingresar comentario-->
+<div *ngIf="template=='crear'" style="overflow: scroll;">
+  <div id="nuevo_item" class="section">
+    <!--  <div class="container" style="padding-top: 90px">-->
+    <div class="container" >
+      <!--Paneles -->
+      <div class="card-panel blue-grey lighten-5 ">
+        <div class="row">
+          <div class="col l8 s12 m8">
+            <span>Nuevo Ítem</span>
+          </div>
+          <div class="col l4 s12 m4 grey lighten-2" style="font-size: 13px">
+            <div class="row">
+              <div class="col l2 m3 s2 center">
+                <span style="color:red">(*)</span>
+              </div>
+              <div class="col l6 m7 s6">
+                <span>Campos obligatorios</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col l4 m4 s12">
+            <div class="row">
+              <label style="padding-left: 12%; padding-top: 20%">Código</label>
+              <div class="input-field col l11 m11 s11">
+                <i  style="color:#009688">keyboard_arrow_right</i>
+                <input id="icon_codigo" disabled="disabled" style="font-weight: bold;" type="text" class="validate" minlength="2" maxlength="10"  [(ngModel)]="Codigo">
+                <!--<label for="icon_codigo"  class="active" data-error = "Código Incompleto">Código</label>-->
+              </div>
+              <div class="col l1 m1 s1">
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col l11 m10 s11">
+                <i  style="color:#009688" >keyboard_arrow_right</i>
+                <input id="icon_nombre" type="text" class="validate" minlength="2" maxlength="35"  [(ngModel)]="Nombre">
+                <label for="icon_nombre" data-error="Nombre vacío o Incorrecto">Nombre</label>
+              </div>
+              <div class="col l1 m1 s1">
+                <h6 id="obligatorio" style="color:red;padding-top: 40px">*</h6>
+              </div>
+            </div>
+
+          </div>
+
+          <!--segunda columna-->
+          <div class="col l4 m4 s12" >
+            <div class="row">
+              <ion-content class="home">
+  <ion-card>
+    <ion-card-content>
+
+      <button ng-click="takePicture()">Añade una foto</button>
+
+      Latest Picture:
+      <img [src]="base64Image" *ngIf="base64Image" />
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+            </div>
+            <div class="right" style="padding-top: 25%; padding-right: 6%;">
+              <a (click)="crear()" class="btn waves-effect waves-light"  style="font-size: 16px">Crear
+                <i>send</i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+      <a (click)="cancelar()" class="btn-floating btn-large waves-effect waves-light red right">
+        <i >clear</i>
+      </a>
+    </div>
+  </div>
+</div>

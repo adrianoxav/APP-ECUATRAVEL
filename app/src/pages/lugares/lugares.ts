@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-import { ListPage } from '../list/list';
+import { Component, ElementRef, ViewChild } from '@angular/core';
+import { NavController, Platform } from 'ionic-angular';
+import { Locations } from '../../providers/locations';
+import { GoogleMaps } from '../../providers/google-maps';
 import {Camera} from 'ionic-native';
 import { ActionSheetController } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
@@ -18,36 +19,31 @@ import { AlertController } from 'ionic-angular';
 export class LugaresPage {
 
   template: string = 'null';
-    tab2Root: any = ListPage;
-    public base64Image: string;
+  public base64Image: string
 
-    constructor(public alertCtrl: AlertController){
+  constructor(public alertCtrl: AlertController, public navCtrl: NavController, public maps: GoogleMaps, public platform: Platform, public locations: Locations) {console.log('constructor');}
 
-    }
-    goCrear() {
-      this.template = 'crear';
-
-
+  goCrear() {
+    this.template = 'crear';
   }
 
   cancelar() {
-
-      this.template = 'null';
+    this.template = 'null';
   }
   takePicture(){
-   Camera.getPicture({
-       destinationType: Camera.DestinationType.DATA_URL,
-       targetWidth: 1000,
-       targetHeight: 1000
-   }).then((imageData) => {
-     // imageData is a base64 encoded string
-       this.base64Image = "data:image/jpeg;base64," + imageData;
-   }, (err) => {
-       console.log(err);
-   });
- }
+      Camera.getPicture({
+          destinationType: Camera.DestinationType.DATA_URL,
+          targetWidth: 1000,
+          targetHeight: 1000
+      }).then((imageData) => {
+          // imageData is a base64 encoded string
+          this.base64Image = "data:image/jpeg;base64," + imageData;
+      }, (err) => {
+          console.log(err);
+      });
+  }
 
- showPrompt() {
+  showPrompt() {
      let prompt = this.alertCtrl.create({
        title: 'Danos tu experiencia',
        message: "Ingresa Tu comentario",
@@ -75,12 +71,14 @@ export class LugaresPage {
           handler: data => {
             this.takePicture()
           }
-           
+
          }
        ]
      });
      prompt.present();
    }
 
-
+  ionViewDidLoad() {
+      console.log('Hello LUGARES Page');
   }
+}

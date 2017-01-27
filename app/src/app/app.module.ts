@@ -27,7 +27,8 @@ import { Connectivity } from '../providers/connectivity';
     MapPage,
     ListPage,
     MainPage,
-    LoginPage
+    LoginPage,
+    TabsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -42,7 +43,8 @@ import { Connectivity } from '../providers/connectivity';
     MapPage,
     ListPage,
     MainPage,
-    LoginPage
+    LoginPage,
+    TabsPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, Locations, GoogleMaps, Connectivity]
 })

@@ -1,78 +1,76 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { Http, Headers } from '@angular/http';
 import 'rxjs/add/operator/map';
 import { Geolocation } from 'ionic-native';
 import { GoogleMaps } from './google-maps';
 
 import { Connectivity } from './connectivity';
+
 declare var google;
 
 @Injectable()
 export class Locations {
 
-    data: any;
+  data: any;
 
-    constructor(public http: Http) {
+  constructor(public http: Http) {
+    console.log('Hello Locations Provider');
+  }
 
+  usersLocation;latitude;longitude;
+  load(){
+    console.log("jose2");
+    if(this.data){
+      return Promise.resolve(this.data);
     }
-    usersLocation;latitude;longitude;
-    load(){
 
-        if(this.data){
-            return Promise.resolve(this.data);
-        }
 
-        return new Promise(resolve => {
-          Geolocation.getCurrentPosition().then((position) => {
-            let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+    return new Promise(resolve =>{
+      /*
+      Geolocation.getCurrentPosition().then((position) => {
+        let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+        console.log("jose1: "+position.coords.latitude);
 
 
 
+        this.http.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+position.coords.latitude+',' + position.coords.longitude+'&radius=5000&types=food&key=AIzaSyCwKpmkB1nqwAihb33xeM-R24CxDdUtdi8').map(res => res.json()).subscribe(data => {
+            this.data = this.applyHaversine(data.locations);
 
-            this.http.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+position.coords.latitude+','
-            + position.coords.longitude+'&radius=5000&types=food&key=AIzaSyDTofmCEZHNotd6_Ncgqhl7ri0MN7zIZx8').map(res => res.json())
-            .subscribe(data => {
-
-
-                this.data = this.applyHaversine(data.locations);
-                console.log(this.data)
-                this.data.sort((locationA, locationB) => {
-                    return locationA.distance - locationB.distance;
-                });
-
-                resolve(this.data);
+            this.data.sort((locationA, locationB) => {
+                return locationA.distance - locationB.distance;
             });
-
+            resolve(this.data);
         });
-            });
+      });
+      */
+      this.http.get('assets/data/locations_json.json').map(res => res.json()).subscribe(data => {
+        this.data = data.locations
+        resolve(this.data);
+      });
 
-    }
+    });
+  }
 
-    applyHaversine(locations){
-      console.log(this.data)
+  applyHaversine(locations){
 
+    locations.map((location) => {
 
-  console.log(this.usersLocation)
-        locations.map((location) => {
+    let placeLocation = {
+      lat: location.latitude,
+      lng: location.longitude
+    };
 
-            let placeLocation = {
-                lat: location.latitude,
-                lng: location.longitude
-            };
+    location.distance = this.getDistanceBetweenPoints(
+        this.usersLocation,
+        placeLocation,
+        'miles'
+      ).toFixed(2);
+    });
 
-            location.distance = this.getDistanceBetweenPoints(
-                this.usersLocation,
-                placeLocation,
-                'miles'
-            ).toFixed(2);
-        });
-        console.log(locations);
-
-        return locations;
-
-    }
-
-    getDistanceBetweenPoints(start, end, units){
+    return locations;
+  }
+  getDistanceBetweenPoints(start, end, units){
 
         let earthRadius = {
             miles: 3958.8,
@@ -101,5 +99,4 @@ export class Locations {
     toRad(x){
         return x * Math.PI / 180;
     }
-
 }

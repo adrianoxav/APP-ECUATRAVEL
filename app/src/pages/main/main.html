@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Menu</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="pagPrincipal">
+	<div class="custom" style="color:red" >
+        <table width="500" border="0" cellpadding="5" >
+        	<tr>
+        		<td align="center">
+        		 	<img src="img/places.png" alt="description here"  width="150" height="150" (click)="openLugaresPage()" />
+        		 	<p style="color: #475369">Lugares</p>
+        		 	<br/>
+        		</td>
+        		<td align="center" valign="center">
+        			<img src="img/cronograma.png" alt="description here"  width="150" height="150" (click)="openCronogramaPage()"/>
+        			<p style="color: #475369">Cronograma</p>
+        			<br/>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td align="center" valign="center">
+        			<img src="img/maps.png" alt="description here" width="150" height="150" (click)="openMapPage()"/>
+        			<p style="color: #475369">Mapas</p>
+        			<br/>
+        		</td>
+        		<td align="center" valign="center">
+        			<img src="img/ajuste.png" alt="description here" width="150" height="150" (click)="openInteresesPage()" />
+        			<p style="color: #475369">Intereses</p>
+        			<br/>
+        		</td>
+        	</tr>
+        </table>
+    </div>
+</ion-content>

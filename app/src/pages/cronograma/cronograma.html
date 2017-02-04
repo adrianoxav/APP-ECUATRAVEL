@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Cronograma</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding >
+  <ion-card>
+    <ion-card-header>
+      Create event
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        <label>Title : </label>
+        {{title}}
+      </p>
+      <p>
+        <label>Start date : </label>
+        {{startDate | date:'dd/MM/yy HH:mm'}}
+      </p>
+      <p>
+        <label>End date : </label>
+        {{endDate | date:'dd/MM/yy HH:mm'}}
+      </p>
+      <p>
+        <label>Note : </label>
+        {{note}}
+      </p>
+    </ion-card-content>
+  </ion-card>
+<ion-list>
+  <button (click) = "createEvent()">
+    <ion-icon ion-item name="alarm" item-left></ion-icon>
+  </button>
+  <button (click) = "openCalendar()">
+    <ion-icon ion-item name="calendar" item-center></ion-icon>
+  </button>
+  <button  (click) = "deleteEvent()">
+    <ion-icon ion-item name="trash" item-right></ion-icon>
+  </button>
+</ion-list>
+</ion-content>

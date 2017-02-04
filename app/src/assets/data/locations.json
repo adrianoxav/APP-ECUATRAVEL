@@ -1,0 +1,657 @@
+{
+   "locations": [
+      {
+            "geometry" : {
+               "location" : {
+                  "lat" : -2.2499692,
+                  "lng" : -79.89431619999999
+               }
+            },
+            "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id" : "af7e4ae4dec9fb051b4b6ba678e7af01372898b2",
+            "name" : "AKI 25 de Julio",
+            "opening_hours" : {
+               "open_now" : false,
+               "weekday_text" : []
+            },
+            "photos" : [
+               {
+                  "height" : 1440,
+                  "html_attributions" : [
+                     "\u003ca href=\"https://maps.google.com/maps/contrib/109618351248116837135/photos\"\u003eAndres Jars\u003c/a\u003e"
+                  ],
+                  "photo_reference" : "CoQBdwAAAAbfn6q45_7uT2leu2AdMjVWiGZFqJTrvKGOYUi9h1L6ydpsXEZ51LN-1nwyn3rJb4bc1oSFgTM-J_aRvCKvoqvM3ZYAonxmt6puvB4jhNgLb2nFl3FU5yi6vruDb44lEXAbC5UvSZbRjwwEQ8CNOmpPllIxePE2Ev_tLUrtJ1dhEhCg1RCXWlUEVMDHiByY1SbLGhTKer0i4_Z1eiNYw3nhfLPkfpC4Eg",
+                  "width" : 2560
+               }
+            ],
+            "place_id" : "ChIJBZXx_pRvLZARz6LOyBy9iUQ",
+            "rating" : 4.1,
+            "reference" : "CmRRAAAAMyDcNEUDzAIp9yCrJ71vl-Qv1M1Pq4BPb2kzW_VvZOHo4-8vIuAs3SInnL1fORZL7SGVs4thPirH7201U5miEwNBUV_hqtwzRE0J8Lat5kbrhH2WrPuRTY6a_rCQvTY1EhB-1c3uBqCe5ZesppyUX6N5GhS7gN37EoZpPq8JFZjZTo7PaUX0cQ",
+            "scope" : "GOOGLE",
+            "types" : [
+               "grocery_or_supermarket",
+               "food",
+               "store",
+               "point_of_interest",
+               "establishment"
+            ],
+            "vicinity" : "Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.25142,
+               "lng" : -79.884872
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "3af1dc46292afdb3ad5566096c110f02f97a8918",
+         "name" : "TÍA Floresta",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3096,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100140171441276229972/photos\"\u003eErick Ramirez\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJvj0sYuKAz7C43UX0ab5XGJWK9KqWI-HVLsegcxPLzvq9Fg5faiFEB59Br4aK1U0CQmomCw-C1Y5zTiqJctQGvL27Rh0_QkM3HEfwvxxS9r_z5ANbNFcFRP-COGDrEHv0aJmguJnLu5vc79QSh4yZOQPJkFqmCKKxXO8cn53tVpEhAICbm2CwGuloQ7pNn7PkrzGhTBgLsS1r4ErP5t5_Drd7AgYP-5aA",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJ8Wao75lvLZAREb0TM7clRyc",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAA44YwrQEHhSQ9wDHQPiV9KlzixspPHU_22C7BcI8zQ6d0HZQivVEQwPMNCOK7mOp3islbyewwoVUER1P1eJDETjf5IsG9bbg_L5ETiKWx3ha3fqW6C5mSjBva_7SFxrXMEhD8RaC-Ahcb9Ddl1fayfSnCGhSJukcDhDIZxSD09LH9FGE_4GswsQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Av Roberto Serrano y cuarto paseo 52, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2762592,
+               "lng" : -79.87896769999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "84feb22878998bcd7e73a339cba87d1410b4b9c4",
+         "name" : "TÍA Guasmo-Maternidad",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107491318192442300490/photos\"\u003eTÍA Guasmo-Maternidad\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAALkh7IZITedVnzz5XcTW5xT1fmRNR7L0VPEZfZxTDJt8aUISzggsWogjS5RcvFP_ZvXQbEOXr-yScYxwsRrB3N88-MbroZh3_QgTD2ZulGd5TL8Fq1nOTjO_j_ZMrrkTyUupUwx9v4LW5tNq8fQGhVj6i01IH_D6QWXjK8Y5tfwqEhCQzLjLMY7Wv98r4Pqp-gU9GhQB0HMLaDGVTEYnBE5wOl76XCYq4g",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJAZiI4XllLZARiLaksXOqtc0",
+         "rating" : 3.6,
+         "reference" : "CmRSAAAAAP1SJ3PLucjkZR15ch-XV82v0REK8pFVHQF34Wv92kxkLN5bWVMOYCvIV_Zl2NPgv4rBsULQ-fYXPnVLoNTSMZOgkIrCuVSGu1LXft4QkBdajo-wWW95vb6wpeBR38D2EhB_fU0mJnQcmUjx6w0WGyqNGhQiwBmP1FTSROd4YZI6STdglR-Lcw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Av. Abdón Calderón Sector 91 de La Coop. Union de Bananeros bloque 6, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.250952,
+               "lng" : -79.89971199999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "f3126589d5268f80cad0312ae935f5909cd2eddc",
+         "name" : "TÍA Los Esteros",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 745,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114936148665981020781/photos\"\u003eTÍA Los Esteros\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAI1GjXFBuadv3kHFtq7rd7XiKPKNDBW1FKHtXoo6__clunC3MIj_AJzqhXgA2IEQhQPxCfbganyQuZzwFl74LwvcB8Uvs-5cLuKwqdkkCZcSQN9osT4U_SPJcIJpb_tyx9BLwT048iPZyZRxnnsDumJ59wec9eq2wHBPfbHDlecwEhCF3zZZbqlc4iwaIembava8GhT_G6SKKilOXMzK1itdCa2d-fUK4g",
+               "width" : 746
+            }
+         ],
+         "place_id" : "ChIJOZp8oOtvLZAROQ1EWts8Uc8",
+         "rating" : 3.8,
+         "reference" : "CmRSAAAAcmHBdVgFr4tGCkVWlopw3tI-jXWL4dLgyFpgbi7lATOO40Xby2XGyYiP-7Mefqg9lKR7vt4x_J2GhCghGcCGyvvuIQAbeG_qQY0dMCYjrgz9sA4_kys84ydWumBl8HYIEhDiDAFD9unqiiU2wfTvomZPGhRrhp1zaw5nIFoQFeZ_NHLZ1AKNEw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Av. Jose Tomas de Aguirre entre 1era peatonal 2 S-O y S-O, 2da Peatonal 2 Northeast, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2774949,
+               "lng" : -79.89192539999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "53c073b842f8de699fa8fce6dd6d49ce6049c5de",
+         "name" : "GenkiClean S.A",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107416265353760770503/photos\"\u003eJuan Carlos Cabeza Jimenez\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMKp3eyIPFpnMi-zoH_9mDo8Uv6n_P8jNq4xxT0nbDXrYRJKlCsSlvxg3VJ6aO1nZskmv4adyw5IT_rrr-Lgm6HaA7c1uwSp-xhrA-DLhC8YN2uEecNI21jmyJtMgwKGbKaKu_53_aDOgHTL42KobEKjRJA8Eg_O9_ys4QdEsl2TEhAZF7tc3bp7HQE4f-EmEpdBGhRb0MKguITlSj7Nv04ZLU1TRcAfKw",
+               "width" : 2560
+            }
+         ],
+         "place_id" : "ChIJ3dZ2t2hlLZARwPKAevUOF7Y",
+         "reference" : "CmRSAAAAtD4s5utxWVk2U2z8mlFZmRL1qfAd-vsxVe5xXUwHVRke1CBWwKNx9hxO2RrHyNXZsH4prd34wcGc6aKv6SUbg3juYMHi_djW-M673JNGJ1hUjNtc_u4sV7e5xiMm6iNrEhDiaMyMpI54_uaIEyObwKpZGhS28zwJbdtCfBJdHfhr3xlkf7gasw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "de, Calle Sur, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2627036,
+               "lng" : -79.87763339999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "f2424637c143d2d8c059a0caf9eac6e60ed3ca59",
+         "name" : "Bettnes Restaurante",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJq6qqdoFvLZARRTnAqaFAxoM",
+         "reference" : "CmRSAAAA7AsGScuAwamd9pcTWBwgIi6PoK9OzTMhkz6RLGOr3AbvLf4M-uXqszvQfuIDxIPzdMHMgyIFyC4rr64Ir9ntLGOjRM8QnTUMicR-1q88txf2E-1ItrnBbPHab0IfjnZ1EhBeouMDLo8WOWWj4_KDwtTEGhSgWzS1ul21Y64Lzr44xSlAnzHBow",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.26099,
+               "lng" : -79.8782264
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -2.260940550000001,
+                  "lng" : -79.87821725000001
+               },
+               "southwest" : {
+                  "lat" : -2.26113835,
+                  "lng" : -79.87825384999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "98a630d5fe295545bfa340259b377693a6a243b4",
+         "name" : "TÍA Esclusas",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2576,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105711530370885451051/photos\"\u003eTatiana Quiroz\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJ2Rc0wd6Z20QPRnKOvc4hIzo4l5N7_ulKy4p_9BeePKTG0RXD3REgt-B-mDpbKFowYfbbzyQeVnTdkez8mlYHDe-Zjaik0DuRpAmAhcjfRgTZkhqFj9llAg04c0q7X3pTlSQi4Xfv0uNyMW5Af9ADMIZowNA86AlQhX8qKzn4rBEhDubfosQJ8bAzsStc8RHB_cGhT5eX6yOxAM15djpPl8G_crAChkDA",
+               "width" : 1932
+            }
+         ],
+         "place_id" : "ChIJ16lcxINvLZAR5YIZQtK6JNc",
+         "rating" : 4.2,
+         "reference" : "CmRSAAAAMEbQVkOzVUbs_CgaLZEqiwyeNQI1YopLwy-rmNlzosi2R37BYWhvHJqS-zBZBARsSlLsnuD8RFwv2lS_wFKctfaGPj4zEMJqtZWF2VMuPyv1WganZ4caZaKoSV7SPTTNEhBrWAP2PmChDSFG0cpZy8laGhSCrzQHOeLQ-k6n65S9O09jHv9jbw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "RaÃºl Clemente Huerta y 3er., Pasaje, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2701824,
+               "lng" : -79.8963272
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -2.270151350000001,
+                  "lng" : -79.89630570000001
+               },
+               "southwest" : {
+                  "lat" : -2.27027555,
+                  "lng" : -79.8963917
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "be251bde379f7ad11656e963dffbb77702f4e0b2",
+         "name" : "Picanteria El Dorado",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1200,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105008320347752633232/photos\"\u003eKatty Katherinepikitu_92@hotmail.com\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAABU3iSozDFX1Tjtw0g7zLk5cPiC2yTKuCTC9y7NWHfec3lWwPNG6v0KMnP_-JH1PfgdjbFcIVIbNg6T7ObgHklE5GQmOMqJHc4Mt6Bpdqgp5B5f29aNNfY31h2PAdvC2UBmSC7RaW2jcYg4Pzl4TkkNV9OqzjdvEeJ43AuwHIusREhB-eD83kv7u08YBKeJl7f01GhQF5g_L8GcG_EjcdN4u7BNrXt487g",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJlemYmWBlLZAR_qOS3-ErFNk",
+         "reference" : "CmRSAAAAmF9hOcGzVEj4PX_S5gUys3b3P2ANywx0N9mvRMSzndY9gWEbJXVwlbSxmjSB36LIloec8d05V6CJzcirtqb1PNBVWB3jwJVJ2-SCuSB5eloVYyBjxu91cTchi2JJcXjPEhDmAGn-1mGmjg_i-0_KoJgMGhR9HOT4hB_nvuzDktLNHvK4yDPotA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Monseñor Daniel Comboni, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.269409,
+               "lng" : -79.9006679
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "5efd0d44c9c0fb488a8c13ba0389dae36328a659",
+         "name" : "DISMUVISA",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJd8DO415lLZARWb-x3q_I2nc",
+         "reference" : "CmRRAAAAogmgpJaXgZieEnoWTlgWCKO4lJMJjgyKm179PhS0Q4gTEMbZTWRFoPKuEoawLfKWnmGO2oSkv-E1I5P8qIFVh9Vx2Kmkl-_FC7FlUvefN4CmeYfhyowcucgw9XDbwBZiEhCEYehiOM_fcKhevjVf1RetGhQac6Ky7aZ3g5dtalXtRxTWGafT-A",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2461822,
+               "lng" : -79.89031969999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "e6f0c6b5920f539e89d6cbac0c267ea0f3bf6ab8",
+         "name" : "TÍA Tulipanes",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105952064299380427721/photos\"\u003eDario Mera\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMc1RvQluiy59xbZOkkK5w23MiiZ6mV-A0hK5j7Henna-7jmODGCkC5ppdlJJxp2ukiIAlHGQtArOUxyHrPL6PzTqOmsAxneEbf0uDCU4iV9kWt5gSTQ1GNaXUZTnK0lWlvCgdFRrCCleaRjGX6ne4PuPD-6Ste4eMqLOiKzjWPuEhC7mZIu6kb6FYufQq8yX6qxGhSijhknHuh9idnafAlj8abiZAbd8Q",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ4d7B6b1vLZAR7mEkTNf6d60",
+         "rating" : 4,
+         "reference" : "CmRSAAAAqQMj1axAfU-Od7fVdKKPMs8HkjvoU8cb1DCemBVGF0hYL93KUGIf9lbV-opkGOJ9MBwu5Knhmdn375UxUpaEckgLct_NJ4E_Z_kk_jc3cdwJsOBoyd2wxI3trU9jtSeREhB9294Ru0mdwKilywLecCneGhToZYWLhpSNBAxHBvXbuiCqxbHopw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Av. Domingo Comin la estación de la Metrovia, Calle A, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2510972,
+               "lng" : -79.89920649999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -2.250994000000001,
+                  "lng" : -79.8992052
+               },
+               "southwest" : {
+                  "lat" : -2.251131599999999,
+                  "lng" : -79.89921039999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "09785367add53b991bd5d274985ba937e9555eb2",
+         "name" : "Mini de Mi Comisariato",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2560,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118125791028744729006/photos\"\u003eJulio Carpio\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAD9J-HoqThc27_tuzQWm9ekx1nEAoNzT7fXdqecVoZ6D9nvGTqEMy9dJoEGo_r3qEKEOeSqJFzp41ChH0hlye-CutsV2kTLEG8yuWTTqSVCKuSYeDeJC9SanIsLr4rqFmiaAXzAGtIQhQg3KRARS3K6iTx21N5hrwpmxHKdVX234EhChkjiySYZt34Wdjfa2UWGXGhTuR7O9PppTlhUvaW3Txz_QIHAI8w",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ8fw8c-tvLZARdDkwC9A_Nhs",
+         "reference" : "CmRRAAAAowY2suO-uS87Lbs5fK4xOYJJgTsOrJVw2li4vckUjBUdqntZSfX7B2H8llkncOzIHwgOXn66IXOuRvK3TGNq1MbD8_tQL0FSV3elKCdLKi-3f2XS4GbTdmj4pHvvPXrHEhCcjnGJzNmz2GvBEFwKEWqSGhSd-wW0cAQAaE7RGsUZeCLiVik3zQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "S,, Calle 51C South, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2437137,
+               "lng" : -79.8866977
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "34b291e6879025e05079be8dee49512f0adcce4a",
+         "name" : "Smoothies Bar Jugos Frutas Y Algo Mas",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3096,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109426809354388024465/photos\"\u003eEduardo Tobar\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAANBNNPvwFvYwSAEo9ofoV5c_p28zPxbBicAEbwmX6ZDCy0-TUo6ZoarU6E8Qw75gW4C8kptNAcaxm2W17BBr45Rmi1IavECQW1za5yM_mkMSYQrX_HGfDYWnn88ZpORsSa-iMx-sWHG7AsJEtyg0CM4qq-H8XhMn7En2tJA--ZpBEhDKoU8u8mVfn5bjUpDacwqjGhSi-qWTewlucR_MZr1n6hjT9XxG2Q",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJSbFPx7xvLZARYvt0NJI9FsA",
+         "reference" : "CmRSAAAAJ8NwG1Kqf-dvTLs1FJ_NvH7eJA4AcbNvXIEpKwJPRQ6hshMjBEeCwBSp9Gy-_9N0CIGgiSFajSSnBjbPNJn41T3O6FeHsR0wwXdKr4aP9NxFIYEiwC_5C9_qtom0v-hbEhAWTR02214-K58Zf_tU7xe4GhSU1dE7QEfmPIEgQHVii_jS5TTj3w",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2417653,
+               "lng" : -79.888469
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "dbb9196c7b416be0167cd99c23e9f8121e4f299e",
+         "name" : "ALMESA - GYE",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114791024459301759456/photos\"\u003eHenry Cabrera\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAADTydfY1QLfcUq2tSWx88J-e4g_PFHniFN1P1NOGBBrU6pPXtfBaAuVxUoWMjYO8c5ITYlkIsjqNtMIQBsgwE_2G97PFDRvxornn2Y78beFbRU2Y5zyT_fOGf3HL_pa51NX0uP4sP1kQCiR8xujUY2AYacKvK4VJZy34YxLGNWKrEhDPFdY-2kBvznwVdtPUfSqNGhR_HXB4ELF1d5RzaUqvut-0JlUznw",
+               "width" : 2560
+            }
+         ],
+         "place_id" : "ChIJmyPZd7tvLZARu4GQXYBhuA8",
+         "reference" : "CmRRAAAAIuswt2VluGLjn1desZHV2rX2JyvD_HGwbv0JwsIeb3-4AQ8C_Y5SeZvQqlOhhYYHfEhb8MU4twZl-kQuSsEPRQm0OYYABSNEBLaTrpxjO7IK-3aZucWKO1GjmXWF9edGEhBuLR3cYF8d9rxHWVT-3fdKGhRI-a7b33hnB42fU9mA_z2jiAt8AA",
+         "scope" : "GOOGLE",
+         "types" : [ "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2412869,
+               "lng" : -79.8908387
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "ffa37e8384d529265feccff87bd7f8cdf326fe6d",
+         "name" : "Ala Estacion - HOTWINGS",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109626019801374370941/photos\"\u003eJohnny Aranda G.\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMPh4QA6heFu-spPy-fkNtqju4cHsWBJzwC9HOM9NXCsfOMjhtl9r1oFzq6CE6FHZvY7Joxu-t0xkflFgj4h4MnaTKGXoAi4OEaT7DYWKLVZ2YCR0CZIbf1tzvH1BpwjmxXOknI8OzQA-y28rXdm-I3YaHkGLbbEMxiiO7-Hv-BoEhDaWCFkHk0p16IyeZrbmmB3GhRYqBbJt5e7BouqVMTWbuA7gEchjA",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJY75p3LtvLZARMGCIA5MZ7RQ",
+         "reference" : "CmRRAAAAlqLD5Nn99ArWv-ZWemuVbS1VIYXB6R19rK82QWmvEsv3vnGpumbY7NbnkOEOPHpWGpQ1Z1OctmDWLbQG4zJ9gV1QRtL8LpyjZRAmXIiCdkkUAvN9qcUZI4HiAG5H5fr7EhBKyrrisYTM73CzFtxoaHxjGhRo6-Be7Vh0GsBYaYpwdmWde-Ixdw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2419013,
+               "lng" : -79.89511419999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "f521b5ca02a62bfd69747187990ebc833e8bfb89",
+         "name" : "Chili's",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102636842216958568305/photos\"\u003ecarlos julio jurado llori\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAADJKo48qaa3oxa1S66ePVaWfX-uJVE-dOUjXjcK1s5y8Gwu7qTc_oTonnsaKemf5rf0ZU06YhBq7P69qbMdt_iYFngY6pgerInd-Zo1eLg4X3cLTy-vH9lZR0tSxyXwfFAJPn6ixfw0qOJblIstBd7fMFXopzqXqKm11n5-CDx0KEhA7GrDPKAo6qR4MFRAomOt5GhRrQxRPjnYedjzid2XoDVfm-SMimQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJcx__xbhvLZARxmF0JHXeuj0",
+         "price_level" : 2,
+         "rating" : 5,
+         "reference" : "CmRRAAAA43ciDNg2ZQfAr1c591i9XQM8MlV5jDSJVI-VO5V3xvNU7gEFtZzqj4ms7nK_LIQ6HQjpmdS364kdgqaAluXepflXS0FmF_XKOlZuSZOCDVUqb5Ra0Y8iGyW_QoUxOYZ3EhDqwtxO_zdXyE59hk0kl-OtGhR34nsyDTELcCuRtdvgY26BlPwK7A",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.24148,
+               "lng" : -79.8945456
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "f13cae62d3813c7b9ce479222a7c893d9e93fe00",
+         "name" : "Carl's Jr",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJ4R9P3LhvLZARackpAYHIw9s",
+         "reference" : "CmRSAAAAkAFM0r-vSK5JWpcixAczZeo7LyC1xMqvsa92SLnvk9RrAPkIP5P9XJGpbXTnEa-0X6soOjUHzypg_07ygnD4gOGVdy9x0HZorDxewOpDAqPqHL3oqQAqkaLU3IXAEg5cEhCNY5fZTW6xkOSql1b4FrmeGhQJwWv3YCdjjDM3ASlrA8KEwQAvtg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.240983,
+               "lng" : -79.89489999999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "95e8a4e1730582d745db608bccdd34287437fb96",
+         "name" : "Sweet & Coffee",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 498,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100570340091352921742/photos\"\u003eSweet &amp; Coffee\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAACS2LiubveKg2YwYC6OpEmVDNLwTRBg8qlrMrT-pg-4M2Mb1TjL9C1_N6iA8Z5ApxmzKdXc7oRhUHHG601Hj-sQTn0TYTenMnP7iS2Uoh113xZu9f2MB6OXQcOqx7uW3Vcr9S0awvR-_sAboQMZnrFdNHIFzAUAiGf8QE6yGOHxGEhDxDpnPrRkOJcjdOtCQ_B3zGhQcuOVxApWzK-9OZxJVtuuccS5-cA",
+               "width" : 498
+            }
+         ],
+         "place_id" : "ChIJd80z77hvLZARU6cWdmWS9Dc",
+         "reference" : "CmRRAAAAEEVl-Emha_en6lgvhFyJuX_F3KKrAue2Al2P3CNh-1IThYAd5E2ekFfrypnnTE1NwZkG0G_Jtm2TL5ao-z-y1xTZ5L9okMMlbCf8U_FWcVFegU0w6KsoUD4dRuoZwEofEhC7eELSAnkwTYOP5G4mElziGhQA_iDN3jQlIS1tAElbaTlZoLgw7Q",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "Av. 25 de Julio, C.C. Riocentro Sur Planta Alta, Patio de Comidas, Local #C1, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2409291,
+               "lng" : -79.89513699999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -2.24087995,
+                  "lng" : -79.89479189999999
+               },
+               "southwest" : {
+                  "lat" : -2.24107655,
+                  "lng" : -79.89617230000002
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "c1975bce49282c7ddd10713b78e44bddb46fe26a",
+         "name" : "Cafe Bombon's",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 4128,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111604097222400183321/photos\"\u003eJheandry Garcia\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAFDyQjbXiHorDcnwWUDFCjPMyD-Q8wQJC_8e4KA427iuPdGnekUrw5CS6LZVEVbPYzTDf8Rg92NmwKAFmHlR556rM_W8Il8kaVmUHy1-V8NQa3qkMZAlYxIipcP6a9u_QIjt5_4tku7zhMTjK-XTYvCtJPDHINPoZd8uXaxIW39lEhD3F1XCseGbTt55X63N3wJ9GhRKnKncD5cunBSAFR0kU4XMcKAtgQ",
+               "width" : 2322
+            }
+         ],
+         "place_id" : "ChIJGZQf7LhvLZARp68dXLLo-QA",
+         "reference" : "ClRQAAAASpjCKU8dpYQfmEZNAEOttYx9FoZ87B_hJcQjFMUhFd2E72zPh_KrgWpjUQNIkUxEETl1yO9BGdCR4oQ95lPNASG34lKE9gYlzF445ahSd8ISEEhAIsBxIwCKt_8Q8uogav4aFLEvQ8WyzIcB83p0G1qAB277NLXF",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Local 11, Patio de Comidas Riocentro Sur, Avenida 25 de Julio, Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2407579,
+               "lng" : -79.8951769
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "e562dc3f99951d4f8f907622108875b578aa2d92",
+         "name" : "KFC RIOCENTRO SUR",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJz7ro7bhvLZARR6yeeXko_i0",
+         "reference" : "CmRRAAAA2FJREdHzwy79mWq88vmthv1V0Bv2_3W6k3QSPGrZr57q-uwEwxL4kq_RjM0kLJfsXNn-IfCMQxzheJAp2HMD2E3wA4EKsgFV7VzBjucnmx19mDzRvxYoxYyF1fpYlKChEhC8o6CKXPd8S_5qku2q09tnGhRFNsAswNHJrBCS0p42ZIeq5NaHJg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Guayaquil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -2.2433647,
+               "lng" : -79.9016742
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "b535218546be35bf4fe789dc4cd48c127d8dd39e",
+         "name" : "¿Que Onda Güey? Taquería",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3096,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108737404374432364509/photos\"\u003eCésar Sanchez Oviedo\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKbj0XpprRxKxxkr_s1S69gXt5mP8UcMj7J2Wk8rDNH3JHO97AK1v2ltPIAUkRI9VU9SpgKuHvG2gkCYGV7l_8QPJ3NIqL_xUOWjpwPKwY6eynE-9LVQrupPAi94DRi2BmsEKI2ShCpY5M8X2BgDQlGqInGAt_uKJqFOpZfzkfdBEhAEZinHxHsLhbehB2qo7bvIGhTMlO7J6qlVUzrw7XMhyx-OLh-DCw",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJU93oRMFvLZARgAoSxtvpZUc",
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAUax64ydJvoetZNYrGWs740nd3LnOnEqkerDsRwnA4ZASc-jA4w-YZgu1PDKRiu1hMD5SByR6nYWWhR3OThEr11YwkNc_ge3a8Nd-xVBvlGS9H-4aqpg2S4nySDCZ5J5kEhBacWALuHfTkRzcad5ATVULGhS1GGbypCoYmVAPDSrL3sC85LdgdQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Guayaquil"
+      }
+   ]
+}

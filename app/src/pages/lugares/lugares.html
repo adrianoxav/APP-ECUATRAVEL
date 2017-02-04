@@ -1,0 +1,105 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Lugares Cercanos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-list no-lines>
+        <ion-item *ngFor="let location of locations.data">
+            <button (click)="showPrompt()" ion-item>
+                <ion-avatar item-left>
+                    <img src="{{location.icon}}" alt="" style="width:22px;height:22px;border:0;">
+                </ion-avatar>
+
+                <h2>{{location.name}}</h2>
+                <p >{{location.rating}} votos utiles</p>
+                <p>{{location.distance}}3 miles</p>
+            </button>
+        </ion-item>
+    </ion-list>
+
+</ion-content>
+
+<!--Layout para ingresar comentario-->
+<div *ngIf="template=='crear'" style="overflow: scroll;">
+  <div id="nuevo_item" class="section">
+    <!--  <div class="container" style="padding-top: 90px">-->
+    <div class="container" >
+      <!--Paneles -->
+      <div class="card-panel blue-grey lighten-5 ">
+        <div class="row">
+          <div class="col l8 s12 m8">
+            <span>Nuevo Ítem</span>
+          </div>
+          <div class="col l4 s12 m4 grey lighten-2" style="font-size: 13px">
+            <div class="row">
+              <div class="col l2 m3 s2 center">
+                <span style="color:red">(*)</span>
+              </div>
+              <div class="col l6 m7 s6">
+                <span>Campos obligatorios</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="col l4 m4 s12">
+            <div class="row">
+              <label style="padding-left: 12%; padding-top: 20%">Código</label>
+              <div class="input-field col l11 m11 s11">
+                <i  style="color:#009688">keyboard_arrow_right</i>
+                <input id="icon_codigo" disabled="disabled" style="font-weight: bold;" type="text" class="validate" minlength="2" maxlength="10"  [(ngModel)]="Codigo">
+                <!--<label for="icon_codigo"  class="active" data-error = "Código Incompleto">Código</label>-->
+              </div>
+              <div class="col l1 m1 s1">
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col l11 m10 s11">
+                <i  style="color:#009688" >keyboard_arrow_right</i>
+                <input id="icon_nombre" type="text" class="validate" minlength="2" maxlength="35"  [(ngModel)]="Nombre">
+                <label for="icon_nombre" data-error="Nombre vacío o Incorrecto">Nombre</label>
+              </div>
+              <div class="col l1 m1 s1">
+                <h6 id="obligatorio" style="color:red;padding-top: 40px">*</h6>
+              </div>
+            </div>
+          </div>
+          <!--segunda columna-->
+          <div class="col l4 m4 s12" >
+            <div class="row">
+              <ion-content class="home">
+
+                <ion-card>
+                  <ion-card-content>
+                    <button ng-click="takePicture()">Añade una foto</button>
+                      Latest Picture:
+                      <img [src]="base64Image" *ngIf="base64Image" />
+                  </ion-card-content>
+                </ion-card>
+              </ion-content>
+            </div>
+            <div class="right" style="padding-top: 25%; padding-right: 6%;">
+              <a (click)="crear()" class="btn waves-effect waves-light"  style="font-size: 16px">Crear
+                <i>send</i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+      <a (click)="cancelar()" class="btn-floating btn-large waves-effect waves-light red right">
+        <i >clear</i>
+      </a>
+    </div>
+  </div>
+</div>

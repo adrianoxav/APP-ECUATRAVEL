@@ -26,15 +26,14 @@ export class Locations {
 
 
     return new Promise(resolve =>{
-      /*
+
+    /*
       Geolocation.getCurrentPosition().then((position) => {
         let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
         console.log("jose1: "+position.coords.latitude);
 
-
-
-        this.http.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+position.coords.latitude+',' + position.coords.longitude+'&radius=5000&types=food&key=AIzaSyCwKpmkB1nqwAihb33xeM-R24CxDdUtdi8').map(res => res.json()).subscribe(data => {
+        this.http.get('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+position.coords.latitude+',' + position.coords.longitude+'&radius=5000&&key=AIzaSyCwKpmkB1nqwAihb33xeM-R24CxDdUtdi8').map(res => res.json()).subscribe(data => {
             this.data = this.applyHaversine(data.locations);
 
             this.data.sort((locationA, locationB) => {
@@ -44,17 +43,30 @@ export class Locations {
         });
       });
       */
-      this.http.get('assets/data/locations_json.json').map(res => res.json()).subscribe(data => {
-        this.data = data.locations
-        resolve(this.data);
+
+      Geolocation.getCurrentPosition().then((position) => {
+        let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+        this.http.get('assets/data/locations_json.json').map(res => res.json()).subscribe(data => {
+          this.data = data.locations;
+          this.data = this.applyHaversine(this.data);
+          this.data.sort((locationA, locationB) => {
+              return locationA.distance - locationB.distance;
+          });
+          resolve(this.data);
+        });
       });
 
+      console.log("applyHaversine 3");
     });
   }
 
   applyHaversine(locations){
+    console.log("applyHaversine 1");
+
 
     locations.map((location) => {
+    console.log("applyHaversine 2");
 
     let placeLocation = {
       lat: location.latitude,

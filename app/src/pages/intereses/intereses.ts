@@ -31,11 +31,7 @@ export class InteresesPage {
     let prompt = this.alertCtrl.create({
       title: 'GUARDAR INTERESES',
       message: "Al guardar los intereses, se comenzará a filtrar los lugares cercanos según los intereses del usuario.",
-      inputs: [
-        {
-          name: 'title',
-        },
-      ],
+      
       buttons: [
         {
           text: 'Cancelar',

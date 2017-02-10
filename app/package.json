@@ -28,9 +28,7 @@
     "zone.js": "0.6.12"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@ionic/app-scripts": "^1.0.1",
-=======
+
     "@ionic/app-scripts": "^1.0.0",
     "@types/jasmine": "^2.5.41",
     "@types/node": "^7.0.5",
@@ -50,7 +48,6 @@
     "ts-node": "^2.0.0",
     "tslint": "^4.4.2",
     "tslint-eslint-rules": "^3.3.0",
->>>>>>> 05be0157f9d115081807836bb0dcf68529ff2adf
     "typescript": "2.0.9"
   },
   "cordovaPlugins": [

@@ -1,11 +1,15 @@
 import { MyApp }                      from './app.component';
 import { MenuMock, NavMock, PlatformMock } from '../mocks';
 import { LoginPage } from '../pages/login/login';
+import { InteresesPage } from '../pages/intereses/intereses';
+import { LugaresPage } from '../pages/lugares/lugares';
+
 import { inject } from '@angular/core/testing';
 import { Events, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 import { Provider } from '@angular/core';
 import {NavController,MenuController} from 'ionic-angular';
+import {} from 'jasmine';
 // Mock out Ionic's platform class
 class MockClass {
   public ready(): any {
@@ -53,7 +57,25 @@ it('definir pages', () => {
   expect(app.pages.length).toEqual(12);
 });
 
-it('abrir menu', () => {
+it('abrir', () => {
   expect(app.menu).not.toBe(null);
+});
+
+it('intereses', () => {
+  expect(app.openPage(InteresesPage)).not.toBe(null);
+});
+it('lugares', () => {
+  expect(app.openPage(LugaresPage)).not.toBe(null);
+});
+let interes : InteresesPage
+it('show interes', () => {
+  expect(interes.showInterests.length).not.toBe(null);
+});
+let lugares : LugaresPage
+it('puntuar lugares', () => {
+  expect(lugares.goCrear).not.toBe(null);
+});
+it('puntuar lugares', () => {
+  expect(lugares.takePicture).not.toBe(null);
 });
 });

@@ -1,3 +1,12 @@
 page-list {
+  .icon-wifi {
+    display: inline-block;
+    background: yellow;
+    font-family: "Ionicons";
+    font-size: 20px;
+  }
 
+  .icon-wifi::before {
+    content: "\f26d";
+  }
 }

@@ -22475,6 +22475,17 @@ page-login .styled-select.slate select {
   width: 100%;
 }
 
+page-list .icon-wifi {
+  display: inline-block;
+  background: yellow;
+  font-family: "Ionicons";
+  font-size: 20px;
+}
+
+page-list .icon-wifi::before {
+  content: "\f26d";
+}
+
 page-main {
   /*Set the background to transparent for ion-item*/
   /*Changes the border for the last item*/

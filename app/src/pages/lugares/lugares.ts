@@ -45,7 +45,7 @@ export class LugaresPage {
 
   showPrompt() {
      let prompt = this.alertCtrl.create({
-       title: 'Danos tu experiencia',
+       title: 'Danos tu experiencia: <span class="icon-wifi"></span>',
        message: "Ingresa Tu comentario",
        inputs: [
          {
@@ -67,7 +67,7 @@ export class LugaresPage {
            }
          },
          {
-          text: 'Foto',
+          text: 'Tomar Foto',
           handler: data => {
             this.takePicture()
           }
